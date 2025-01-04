@@ -58,7 +58,7 @@ root.title("Weather Detector")
 root.geometry("400x300")
 root.config(bg="#f0f8ff")
 
-API_KEY = "e8eb13aa18fcec11b71f4f1932602d08"  # Replace with your actual API key from OpenWeatherMap
+API_KEY = "your API here"  # Replace with your actual API key from OpenWeatherMap
 
 # Widgets
 header_label = tk.Label(root, text="Weather Detector", font=("Arial", 16, "bold"), bg="#f0f8ff", fg="#4682b4")
