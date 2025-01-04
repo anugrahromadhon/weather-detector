@@ -32,7 +32,7 @@ def get_weather(api_key, location):
         return None
 
 if __name__ == "__main__":
-    API_KEY = "e8eb13aa18fcec11b71f4f1932602d08"  # Replace with your actual API key from OpenWeatherMap
+    API_KEY = "your API here"  # Replace with your actual API key from OpenWeatherMap
     location = input("Enter the location (e.g., city name): ")
 
     weather_data = get_weather(API_KEY, location)
